@@ -38,7 +38,7 @@ level, i.e., 0, and '1' will be displayed. The higher level messages
 will not be displayed.
 }
 \examples{
-  NULL;
+  echo_msg('comFunc', 1, 'This is a test');
 }
 \author{
 Hanming Tu

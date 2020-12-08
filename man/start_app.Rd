@@ -5,9 +5,9 @@
 \title{Start R Shiny app}
 \usage{
 start_app(
-  app_name = "07_genTS",
+  app_name = "showenv",
   n = 1,
-  pkg = "genTS",
+  pkg = "comFuncs",
   pt = NULL,
   lb = getOption("shiny.launch.browser", interactive()),
   ht = getOption("shiny.host", "127.0.0.1"),
@@ -39,11 +39,9 @@ start_app(
 start R Shiny apps included in this package.
 }
 \examples{
-\dontrun{
-  library(genTS)
-  start_appe()  # default to "02_display"
-  start_app(1)  # start "01_html"
-}
+# this function start an interactive page so we could not add an runnable
+# example
+ NULL;
 }
 \author{
 Hanming Tu

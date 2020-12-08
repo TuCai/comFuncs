@@ -23,7 +23,7 @@
 #' @return message
 #' @export
 #' @examples
-#'   NULL;
+#'   echo_msg('comFunc', 1, 'This is a test');
 #' @author Hanming Tu
 #' @name echo_msg
 # ---------------------------------------------------------------------------
@@ -31,6 +31,7 @@
 #   MM/DD/YYYY (developer) - explanation
 #   03/13/2018 (htu) - initial creation
 #   05/18/2018 (htu) - added '(password:)(\\w+)' pattern
+#   12/05/2020 (htu) - added example in header block
 #
 echo_msg <- function (prg, step, msg, lvl = 0
                       , fn = NULL

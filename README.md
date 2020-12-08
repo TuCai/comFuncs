@@ -3,6 +3,10 @@ This package contains a set of common functions to be used for R package and R S
 
 
 # Code History
+## Version 0.0.5 (12/02/2020)
+* Fixed examples in each function
+* Added inst/apps/showenv
+* Added cvt_class2df function
 
 ## Version 0.0.4 (10/09/2020)
 * Fixed typo in DESCRIPTION
