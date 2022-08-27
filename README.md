@@ -3,6 +3,9 @@ This package contains a set of common functions to be used for R package and R S
 
 
 # Code History
+## Version 0.0.6 (08/27/2022)
+* Updated for R 4.0
+
 ## Version 0.0.5 (12/02/2020)
 * Fixed examples in each function
 * Added inst/apps/showenv
